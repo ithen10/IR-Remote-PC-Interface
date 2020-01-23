@@ -24,6 +24,7 @@ This is the 4th project in our ECE 312: Embedded Systems Design course that my t
 
 /*print address code and data code to terminal session*/
 	printf("Address: %x  ,  Data: %x%s\r\n", buff[0] , buff[2],"  "); //the string of exactly 2 spaces makes it work. No idea why, but it works	
+	
 	for (int i = 0 ; i < 4 ; i++)	//for loop to clear buff[]
 	{
 		buff[i] = 0;
