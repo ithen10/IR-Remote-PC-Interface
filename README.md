@@ -30,7 +30,6 @@ This is the 4th project in our ECE 312: Embedded Systems Design course that my t
 		buff[i] = 0;
 	}
 }
-/*end*/
 
 As commented, I have no idea why adding exactly 2 spaces makes this line of code work, and neither did our TA. I don't remember why I decided to add spaces at the time, but it was by trial and error that we got this code to work.
 
