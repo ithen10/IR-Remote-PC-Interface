@@ -23,13 +23,10 @@ user releases the button or an invalid code is received.
 This is the 4th project in our ECE 312: Embedded Systems Design course that my teammate, Simon, and I had to do. Notably, the hardest project in the course. With some luck, we managed to complete it and have it work. This is evident in the following lines in the main.c file:
 
 /*print address code and data code to terminal session*/
-	printf("Address: %x  ,  Data: %x%s\r\n", buff[0] , buff[2],"  "); //the string of exactly 2 spaces makes it work. No idea why, but it works	
+//the string of exactly 2 spaces makes it work. No idea why, but it works
+
+	printf("Address: %x  ,  Data: %x%s\r\n", buff[0] , buff[2],"  ");
 	
-	for (int i = 0 ; i < 4 ; i++)	//for loop to clear buff[]
-	{
-		buff[i] = 0;
-	}
-}
 
 As commented, I have no idea why adding exactly 2 spaces makes this line of code work, and neither did our TA. I don't remember why I decided to add spaces at the time, but it was by trial and error that we got this code to work.
 
